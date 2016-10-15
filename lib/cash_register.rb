@@ -12,7 +12,7 @@ def initialize(discount=20)
 end
 def add_item(title,price,quantity=1)
    items[title]=price
-   total =(total)+ (price*quantity)
+   total =(total + price*quantity)
 end
 
 
